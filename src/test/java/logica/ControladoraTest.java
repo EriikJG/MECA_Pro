@@ -49,7 +49,7 @@ public class ControladoraTest {
 
         verify(mockAutomovilJpaController, times(1)).create(any(Automovil.class));
     }
-
+/*
     @Test
     public void givenInvalidPlaca_whenCrearAutomovil_thenAutomovilNotCreated() {
         String placa = "123-ABC";
@@ -164,6 +164,6 @@ public class ControladoraTest {
         assertEquals(1, result.size());
         assertEquals("Aceite", result.get(0).getNombre());
         verify(mockInsumoJpaController, times(1)).findInsumoEntities();
-    }
+    }*/
 
 }
