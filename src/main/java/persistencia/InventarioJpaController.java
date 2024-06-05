@@ -23,7 +23,7 @@ public class InventarioJpaController implements Serializable {
     }
 
     public InventarioJpaController() {
-        emf = Persistence.createEntityManagerFactory("mecanica_PU");
+        emf = Persistence.createEntityManagerFactory("default");
     }
     public void create(Inventario inventario) {
         // Verifica si la lista de clientes en la entidad Cliente es nula y la inicializa si es necesario

@@ -28,7 +28,7 @@ public class AutomovilJpaController implements Serializable {
 
     // Constructor por defecto que inicializa el EntityManagerFactory
     public AutomovilJpaController() {
-        emf = Persistence.createEntityManagerFactory("mecanica_PU");
+        emf = Persistence.createEntityManagerFactory("default");
     }
 
     // Método para crear un nuevo registro de Automovil en la base de datos

@@ -24,7 +24,7 @@ public class ServicioJpaController implements Serializable {
 
     // Constructor por defecto que crea una instancia de EntityManagerFactory
     public ServicioJpaController() {
-        emf = Persistence.createEntityManagerFactory("mecanica_PU");
+        emf = Persistence.createEntityManagerFactory("default");
     }
 
     // Método para obtener un EntityManager

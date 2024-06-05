@@ -1,7 +1,7 @@
 package logica;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import persistencia.AutomovilJpaController;
 import persistencia.InsumoJpaController;
 import persistencia.InventarioJpaController;
